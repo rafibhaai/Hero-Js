@@ -44,9 +44,9 @@
 // console.log(sum)
 // Task--4
 
-let num = 5;
-let count=1;
-while (count<=10){
-    console.log(num*count)
-    count+=1
-}
+// let num = 5;
+// let count=1;
+// while (count<=10){
+//     console.log(num*count)
+//     count+=1
+// }

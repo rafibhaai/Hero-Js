@@ -110,17 +110,20 @@
 // }
 // Dictionary/Object
 
-let box={
-    Nam :" sodor uddin",
-    age :25,
-    salary : 25000,
-    married : true
-}
-// console.log(box.Nam)
-// console.log(box["Nam"])
-box["age"]=27
-// console.log(box["age"])
-const keys = Object.keys(box)
-const values =Object.values(box)
-// console.log(keys)
-console.log(values)
+// let box={
+//     Nam :" sodor uddin",
+//     age :25,
+//     salary : 25000,
+//     married : true
+// }
+// // console.log(box.Nam)
+// // console.log(box["Nam"])
+// box["age"]=27
+// // console.log(box["age"])
+// const keys = Object.keys(box)
+// const values =Object.values(box)
+// // console.log(keys)
+// console.log(values)
+
+let vowel = ["a","e","i","o","u"];
+console.log(vowel.length)
