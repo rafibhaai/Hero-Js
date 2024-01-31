@@ -125,5 +125,9 @@
 // // console.log(keys)
 // console.log(values)
 
-let vowel = ["a","e","i","o","u"];
-console.log(vowel.length)
+// let vowel = ["a","e","i","o","u"];
+// console.log(vowel.length)
+
+let string ="How are you doing today";
+let box = string.split(" ");
+console.log(box)
