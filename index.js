@@ -128,6 +128,6 @@
 // let vowel = ["a","e","i","o","u"];
 // console.log(vowel.length)
 
-let string ="How are you doing today";
-let box = string.split(" ");
-console.log(box)
+// let string ="How are you doing today";
+// let box = string.split(" ");
+// console.log(box)

@@ -47,3 +47,23 @@
 // console.log(count)
 
 // Task--5
+
+// 
+// key: name | type:  string
+// key: age | type:  number
+// key: city | type:  string
+// key: isStudent | type:  boolean
+// 
+let student={
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
+    isStudent: true
+}
+const keys= Object.keys(student)
+const value= Object.values(student)
+
+for (let key in student){
+    // console.log(`key: ${ student[key] } | type: ${ typeof student[key]}`)  
+    console.log('key: ' + student[key] + ' | type: ' + typeof student[key]);
+}
