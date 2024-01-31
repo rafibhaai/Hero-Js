@@ -80,10 +80,47 @@
 //     console.log("i =",i)
 // }
 
-count=1
-while(count<=100){
-    if(count%2==0)
-    console.log("i=",count)
-    count+=1
+// count=1
+// while(count<=100){
+//     if(count%2==0)
+//     console.log("i=",count)
+//     count+=1
 
+// }
+
+// Hero String
+// Problems----------------------------------------------------
+// const Water = "WaTer";
+// const Pani = "water ";
+// if (Water.toLowerCase() == Pani.toLowerCase()){
+//     console.log("Pani Khabo")
+// }
+// else{
+//     console.log("Pani Kahbo Na")
+// }
+
+
+// const water = "water";
+// const pani = "water ";
+// if (water.trim()==pani.trim()){
+//     console.log("Pani Khabo")
+// }
+// else{
+//     console.log("Pani Kahbo Na")
+// }
+// Dictionary/Object
+
+let box={
+    Nam :" sodor uddin",
+    age :25,
+    salary : 25000,
+    married : true
 }
+// console.log(box.Nam)
+// console.log(box["Nam"])
+box["age"]=27
+// console.log(box["age"])
+const keys = Object.keys(box)
+const values =Object.values(box)
+// console.log(keys)
+console.log(values)
