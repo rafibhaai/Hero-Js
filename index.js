@@ -131,3 +131,25 @@
 // let string ="How are you doing today";
 // let box = string.split(" ");
 // console.log(box)
+
+// Arry--2
+let arr  = [1,2,3,4,5,6,7]
+// let arrRev = arr.reverse()
+// console.log(arrRev)
+// ////////////////////
+// let revA =[];
+// for (let i=0 ; i<arr.length ; i+=1){
+//     const box = arr[i]
+//     revA.unshift(box);
+// }
+// console.log(revA)
+
+// 
+const rev_numbers = []
+for (i=arr.length-1; i>=0; i-=1){
+    const box = arr[i]
+    console.log(box)
+    rev_numbers.push(box)
+}
+console.log(rev_numbers)
+console.log("Print Joy  Bangla")
