@@ -132,7 +132,7 @@
 // let box = string.split(" ");
 // console.log(box)
 
-// Arry--2
+// Arry--Module ---2
 let arr  = [1,2,3,4,5,6,7]
 // let arrRev = arr.reverse()
 // console.log(arrRev)
@@ -153,3 +153,5 @@ for (i=arr.length-1; i>=0; i-=1){
 }
 console.log(rev_numbers)
 console.log("Print Joy  Bangla")
+
+
