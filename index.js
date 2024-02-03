@@ -145,13 +145,78 @@ let arr  = [1,2,3,4,5,6,7]
 // console.log(revA)
 
 // 
-const rev_numbers = []
-for (i=arr.length-1; i>=0; i-=1){
-    const box = arr[i]
-    console.log(box)
-    rev_numbers.push(box)
+// const rev_numbers = []
+// for (i=arr.length-1; i>=0; i-=1){
+//     const box = arr[i]
+//     console.log(box)
+//     rev_numbers.push(box)
+// }
+// console.log(rev_numbers)
+// console.log("Print Joy  Bangla")
+
+
+// Return Statement
+
+// function tenTimes(number){
+//     const result = number*10;
+//     return result;
+// }
+// const output = tenTimes(5);
+// console.log("Output Is :",output) 
+
+// function isEven(number){
+//     if (number%2==0){
+//         return true;
+//     }
+//     else {
+//         return false;
+//     }
+// }
+// const output = isEven(5)
+// console.log(output)
+
+// console.log(isEven(5))
+
+
+// 
+// function evenSizeString(str){
+//     const size = str.length;
+//     if (size%2==0){
+//         console.log("Even Size :", size)
+//         return true
+//     }
+//     else {
+//         console.log("Odd Size :", size)
+//         return false
+//     }
+// }
+// // evenSizeString("Dhaka")
+// evenSizeString("Faka")
+// 
+// Arry Operation
+// function sumOfNumbers(numbers){
+//     let sum = 0;
+//     for (const i of numbers){
+//         console.log(i);
+//         sum+=i;
+//     }
+//     return sum;
+    
+// }
+// const num = [1,2,3,4,5]
+// const sum = sumOfNumbers(num)
+// console.log("Sum Of Numbers :" ,sum)
+// --------------------------------------
+function evenNumbersOnly(numbers){
+    const arr =[];
+    for (const i of numbers){
+        if (i%2 == 0){
+            arr.push(i);
+        }
+        
+    }
+    return arr
 }
-console.log(rev_numbers)
-console.log("Print Joy  Bangla")
-
-
+const numbers=[2,5,7,10,15];
+const even = evenNumbersOnly(numbers)
+console.log(even)
