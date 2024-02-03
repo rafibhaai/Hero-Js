@@ -21,6 +21,11 @@
 
 // Task--3
 
-var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
-// bdhbwyghdcynv
-jgkcss
+// var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
+// var emptyStr="";
+// for (const i of numbers){
+//     emptyStr+=i
+// }
+// console.log(emptyStr)
+
+// Task--4

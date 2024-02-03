@@ -231,7 +231,12 @@ let arr  = [1,2,3,4,5,6,7]
 //     console.log(i)
 // }
 
-const num = [2,5,7,10,15];
-for (const i of num){
-    console.log(i)
-}
+
+
+
+// 
+// const num = [2,5,7,10,15];
+// for (const i of num){
+//     console.log(i)
+// }
+// //
