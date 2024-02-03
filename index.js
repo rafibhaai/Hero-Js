@@ -194,6 +194,7 @@ let arr  = [1,2,3,4,5,6,7]
 // evenSizeString("Faka")
 // 
 // Arry Operation
+
 // function sumOfNumbers(numbers){
 //     let sum = 0;
 //     for (const i of numbers){
@@ -206,17 +207,31 @@ let arr  = [1,2,3,4,5,6,7]
 // const num = [1,2,3,4,5]
 // const sum = sumOfNumbers(num)
 // console.log("Sum Of Numbers :" ,sum)
-// --------------------------------------
-function evenNumbersOnly(numbers){
-    const arr =[];
-    for (const i of numbers){
-        if (i%2 == 0){
-            arr.push(i);
-        }
-        
-    }
-    return arr
+// // --------------------------------------
+
+
+
+// function evenNumbersOnly(numbers){
+//     const arr =[];
+//     for (const i of numbers){
+//         if (i%2 == 0){
+//             arr.push(i);
+//         }
+//     }
+//     return arr
+// }
+// const numbers=[2,5,7,10,15];
+// const even = evenNumbersOnly(numbers)
+// console.log(even)
+
+
+
+// const num = [2,5,7,10,15];
+// for (const i in num){
+//     console.log(i)
+// }
+
+const num = [2,5,7,10,15];
+for (const i of num){
+    console.log(i)
 }
-const numbers=[2,5,7,10,15];
-const even = evenNumbersOnly(numbers)
-console.log(even)
