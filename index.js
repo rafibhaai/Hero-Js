@@ -240,3 +240,23 @@ let arr  = [1,2,3,4,5,6,7]
 //     console.log(i)
 // }
 // //
+
+// js Coding Problem part- 2
+
+const products=[ 
+    {name: "shirt", price:400, quentity:3},
+    {name: "pant", price:200, quentity:4},
+    {name: "jainga", price:800, quentity:6},
+    {name: "shampoo", price:100, quentity:2}
+]
+
+function totalhoise(para){
+    let total = 0;
+    for (const i of products) {
+        const sobgularPrice = i.price* i.quentity;
+        total+= sobgularPrice;
+    }
+    return total
+}
+const shoppingkorlam = totalhoise(products)
+console.log(shoppingkorlam)

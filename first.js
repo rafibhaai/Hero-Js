@@ -5,6 +5,6 @@
 // var second =(50);
 // var total = (second/first);
 // console.log(total)
-var orrange =50;
-var lebu = 60;
-console.log(orrange*lebu)
+// var orrange =50;
+// var lebu = 60;
+// console.log(orrange*lebu)
