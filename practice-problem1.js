@@ -45,9 +45,20 @@
 // sample-output: Programming
 
 
-function findlongestword(val){
-    const box = val.split(" ")
-    console.log(typeof box)
-}
-const temp= findlongestword("I am learning Programming to become a programmer")
-console.log(temp)
+// function findlongestword(val){
+//     const box = val.split(" ")
+//     let temp = box[0].length
+//     for (const i of box){
+//         if (i.length>temp){
+//             long = i;
+//             temp=i.length
+//         }
+//     }
+//     return long
+// }
+// const temp= findlongestword("I am learning Programming to become a programmer")
+// console.log(temp)
+
+// Task--5
+// Generate a random number between 10 to 20.
+// Parinaaaaa

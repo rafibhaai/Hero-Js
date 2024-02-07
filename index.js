@@ -108,7 +108,7 @@
 // else{
 //     console.log("Pani Kahbo Na")
 // }
-// Dictionary/Object
+// Dictionary/Object--------------------------------------------
 
 // let box={
 //     Nam :" sodor uddin",
@@ -133,7 +133,7 @@
 // console.log(box)
 
 // Arry--Module ---2
-let arr  = [1,2,3,4,5,6,7]
+// let arr  = [1,2,3,4,5,6,7]
 // let arrRev = arr.reverse()
 // console.log(arrRev)
 // ////////////////////
@@ -243,20 +243,62 @@ let arr  = [1,2,3,4,5,6,7]
 
 // js Coding Problem part- 2
 
-const products=[ 
-    {name: "shirt", price:400, quentity:3},
-    {name: "pant", price:200, quentity:4},
-    {name: "jainga", price:800, quentity:6},
-    {name: "shampoo", price:100, quentity:2}
-]
+// const products=[ 
+//     {name: "shirt", price:400, quentity:3},
+//     {name: "pant", price:200, quentity:4},
+//     {name: "jainga", price:800, quentity:6},
+//     {name: "shampoo", price:100, quentity:2}
+// ]
 
-function totalhoise(para){
-    let total = 0;
-    for (const i of products) {
-        const sobgularPrice = i.price* i.quentity;
-        total+= sobgularPrice;
-    }
-    return total
+// function totalhoise(para){
+//     let total = 0;
+//     for (const i of products) {
+//         const sobgularPrice = i.price* i.quentity;
+//         total+= sobgularPrice;
+//     }
+//     return total
+// }
+// const shoppingkorlam = totalhoise(products)
+// console.log(shoppingkorlam)
+
+
+
+
+
+// const array1 = ['a', 'b', 'c']; 
+
+// for (const i in array1) {
+//     console.log(i);
+// }
+// [here i represent the index of the list]
+
+// //////////////////////////////////////////////
+
+// const array2 = ['a', 'b', 'c']; 
+
+// for (const i of array2) {
+//     console.log(i);
+// }
+// [here i represent the value of the list]
+
+
+// **********************************************
+const employees = [
+    { name: "shahin", experience: 5, starting: 20000, increment: 5000 },
+    { name: "shihab", experience: 3, starting: 15000, increment: 7000 },
+    { name: "shikot", experience: 9, starting: 30000, increment: 1000 },
+    { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
+];
+
+// Function to calculate current salary for an employee
+function calculateCurrentSalary(employee) {
+    return employee.starting + (employee.increment * employee.experience);
 }
-const shoppingkorlam = totalhoise(products)
-console.log(shoppingkorlam)
+
+// Calculate total salary provided by the company in a month
+let totalSalary = 0;
+for (const employee of employees) {
+    totalSalary += calculateCurrentSalary(employee);
+}
+
+console.log("Total salary provided by the company in a month: $" + totalSalary);
