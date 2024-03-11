@@ -8,5 +8,10 @@ function eveningFunc(name){
 }
 
 
-eveningFunc("Samarpo");
-mornigFunc("NatkirPo")
+function nightFunc(name){
+    console.log("Good Night",name)
+}
+
+eveningFunc("Bhaiya");
+mornigFunc("Apii")
+nightFunc("Jaaan")

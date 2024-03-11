@@ -7,12 +7,12 @@ const products = [
 
 // const print = products.map(i=> i.price);
 
-// const print = products.forEach(i=> console.log(i.id));
+const print = products.forEach(i=> console.log(i.id));
 
 // const print = products.filter(i=> i.price>50000);
 
 // const print = products.find(i=> i.price<50000);
 
-const print = products.reduce((previous , current)=> previous+ current.price,0);
+// const print = products.reduce((previous , current)=> previous+ current.price,0);
 
 console.log(print)

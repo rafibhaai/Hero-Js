@@ -1,5 +1,5 @@
 // const [first,second,third,...remaining] = ["Sadia","Kadia","Nadia","Padia"];
-// // dara access
+// // data access
 
 // const data = [{name: "Nayok Niaz", home:"Barisal"}]
 // console.log(data[0].home)
@@ -10,7 +10,7 @@
 //     address : {
 //         street : {
 //             first : "Uttar",
-//             second : "Poribag er goli",
+//             second : "Poribag er goli", 
 //             third: "No Dorai"
 //         },
 //         city : "Dhaka"

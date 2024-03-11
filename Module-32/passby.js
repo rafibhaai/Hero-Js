@@ -26,3 +26,6 @@ function makeMovie(juti1,juti2){
 // console.log(juti1)
 makeMovie(juti1,juti2);
 console.log(juti1)
+
+
+// Object and array nonpremetive
